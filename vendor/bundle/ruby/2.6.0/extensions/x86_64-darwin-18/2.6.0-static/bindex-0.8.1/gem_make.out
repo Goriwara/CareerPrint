@@ -1,0 +1,15 @@
+current directory: /Users/fujiwararyuuta/dev/ruby/autoCreateSkillSheet/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/fujiwararyuuta/.rbenv/versions/2.6.3/bin/ruby -I /Users/fujiwararyuuta/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20200613-10726-drwj4f.rb extconf.rb
+creating Makefile
+
+current directory: /Users/fujiwararyuuta/dev/ruby/autoCreateSkillSheet/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/fujiwararyuuta/dev/ruby/autoCreateSkillSheet/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/fujiwararyuuta/dev/ruby/autoCreateSkillSheet/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20200613-10726-d4hmks/skiptrace/internal
