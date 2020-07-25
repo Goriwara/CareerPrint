@@ -1,0 +1,13 @@
+body {
+    margin: 0 40px;
+}
+
+.col {
+    display: block;
+    margin: 20px 0;
+}
+
+.career {
+    background: #F2F2F2;
+    padding: 20px;
+}

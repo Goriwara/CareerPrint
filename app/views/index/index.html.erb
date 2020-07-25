@@ -1,52 +1,96 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
+	<meta charset="utf-8">
 
-  <title>Career Print</title>
-  <meta name="de∫scription" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="css/style.css">
-  <!--[if lt IE 9]>
+	<title>Career Print</title>
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="SitePoint">
+	<!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
 <body>
-  <div>
-    <h1>Career Print TEST</h1>
-    <p>エンジニア・クリエイター向けスキルシート、職務経歴書を作成
-        文字が入ります。文字が入ります。文字が入ります。文字が入ります。文字が入ります。
-        文字が入∫ります。文字が入ります。文字が入ります。文字が入ります。</p>
-  </div>
-  <div>
-    <form action="">
-      <div class="profile">
-        <input type="text" placeholder="氏名" class="column">
-        <input type="text" placeholder="年齢" class="column">
-        <p class="column">性別
-            <input type="radio" name="性別" value="男性">男性
-            <input type="radio" name="性別" value="女性" checked>女性
-        </p>
-        <input type="text" placeholder="最終学歴" class="column">
-        <textarea rows="4" cols="40"placeholder="資格" class="column"></textarea>
-        <textarea rows="4" cols="40"placeholder="自己PR" class="column"></textarea>
-      </div>
-      <div class="career">
-        <div class="column">
-          <input type="text" placeholder="社名">
-          <button>項目から外す</button>
-        </div>
-        <div class="column">
-          <input type="text" placeholder="社名">
-          <button>項目から外す</button>
-        </div>
-      </div>
-    </form>
-  </div>
-  <script src="js/scripts.js"></script>
-  <p>やったぜ</p>
+	<div>
+		<h1>Career Print</h1>
+		<p>エンジニア・クリエイター向けスキルシート、職務経歴書を作成
+			文字が入ります。文字が入ります。文字が入ります。文字が入ります。文字が入ります。
+			文字が入ります。文字が入ります。文字が入ります。文字が入ります。</p>
+	</div>
+	<div>
+		<form action="">
+			<div class="profile"></div>
+			<input type="text" placeholder="氏名" class="col">
+			<input type="text" placeholder="年齢" class="col">
+			<p class="col">性別
+				<input type="radio" name="性別" value="男性">男性
+				<input type="radio" name="性別" value="女性">女性
+			</p>
+			<input type="text" placeholder="最終学歴" class="col">
+			<textarea rows="4" cols="40" placeholder="資格" class="col"></textarea>
+			<textarea rows="4" cols="40" placeholder="自己PR" class="col"></textarea>
+	</div>
+	<div class="career">
+		<div class="col">
+			<input type="text" placeholder="社名">
+			<button>項目から外す</button>
+		</div>
+		<div class="col">期間
+			<input type="month">〜
+			<input type="month">
+			<button>項目から外す</button>
+		</div>
+		<div class="col">
+			職種
+			<select name="職種" id="">
+				<option value="プログラマー">プログラマー</option>
+				<option value="システムエンジニア">システムエンジニア</option>
+				<option value="デザイナー">デザイナー</option>
+				<option value="ディレクター">ディレクター</option>
+				<option value="マネージャー">マネージャー</option>
+			</select>
+			<button>項目から外す</button>
+		</div>
+		<div style="margin:20px 0">
+			<div>
+				コメント
+				<button>項目から外す</button>
+			</div>
+			<textarea rows="4" cols="40"></textarea>
+		</div>
+		<div style="margin:20px 0">
+			<div>
+				使用ソフト・ソフト・OS等
+				<button>項目から外す</button>
+			</div>
+			<textarea rows="4" cols="40"></textarea>
+		</div>
+		<div class="col">
+			チーム人数
+			<input type="number">人
+			<button>項目から外す</button>
+		</div>
+		<div class="col">
+			契約・雇用形態
+			<select name="契約・雇用形態" id="">
+				<option value="アルバイト">アルバイト</option>
+				<option value="パート">パート</option>
+				<option value="契約社員">契約社員</option>
+				<option value="正社員">正社員</option>
+				<option value="業務委託">業務委託</option>
+			</select>
+			<button>項目から外す</button>
+		</div>
+	</div>
+	<button class="col">経歴を追加する</button>
+	<button>作成</button>
+	</form>
+	</div>
+	<script src="js/scripts.js"></script>
+	<p>やったぜ</p>
 </body>
+
 </html>
